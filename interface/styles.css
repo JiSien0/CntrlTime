@@ -1,0 +1,56 @@
+#bg-for-timer {
+position: absolute;
+width: 356px;
+height: 215px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #394BB0;
+}
+
+#bg-for-text-timer {
+position: absolute;
+width: 82px;
+height: 38px;
+left: 10px;
+top: 20px;
+background: #D5E7FF;
+}
+
+#choose-ctg {
+position: absolute;
+width: 160px;
+height: 38px;
+left: 92px;
+top: 20px;
+background: #92939F;
+}
+
+p1 {
+position: absolute;
+width: 117px;
+height: 44px;
+left: 12px;
+top: -3px;
+font-family: 'Kelly Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 44px;
+color: #000000;
+}
+
+p2 {
+position: absolute;
+width: 156px;
+height: 64px;
+left: 0px;
+top: 0px;
+font-family: 'Kelly Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 39px;
+text-align: center;
+color: #FFFFFF;
+}
