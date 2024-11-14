@@ -18,7 +18,7 @@
     background: #D5E7FF;
 }
 
-#choose-ctg {
+#text-choose-ctg {
     position: absolute;
     width: 160px;
     height: 38px;
@@ -27,24 +27,26 @@
     background: #92939F;
 }
 
+/* p1 - це текст Таймер */
 p1 {
     position: absolute;
     width: 117px;
     height: 44px;
     left: 12px;
-    top: -3px;
+    top: 7px;
     font-family: 'Kelly Slab';
     font-size: 18px;
     color: #000000;
     -webkit-user-select: none;
 }
 
+/* р2 - це текст Оберіть категорію */
 p2 {
     position: absolute;
     width: 156px;
     height: 64px;
     left: 0px;
-    top: 0px;
+    top: 7px;
     font-family: 'Kelly Slab';
     font-size: 18px;
     text-align: center;
@@ -52,12 +54,13 @@ p2 {
     -webkit-user-select: none;
 }
 
+/* p3 - це сам таймер */
 p3 {
     position: absolute;
     width: 150px;
     height: 96px;
     left: 100px;
-    top: 50px;
+    top: 90px;
     font-family: 'Jomhuria';
     font-size: 36px;
     color: #FFFFFF;
@@ -123,4 +126,30 @@ p3 {
 
 #overlay.active {
     visibility: visible;
+}
+
+#create-ctg {
+box-sizing: border-box;
+position: absolute;
+width: 130px;
+height: 35px;
+
+background: linear-gradient(90deg, #7AF8F8 0%, #545CFF 100%);
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+}
+
+/* p4 - це текст Створити категорію */
+p4 {
+position: absolute;
+width: 210px;
+height: 96px;
+left: 9px;
+top: -6px;
+font-family: 'Kyiv*Type Titling';
+font-style: normal;
+font-weight: 350;
+font-size: 13px;
+line-height: 48px;
+color: #FFFFFF;
 }
