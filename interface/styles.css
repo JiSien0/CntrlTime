@@ -1,95 +1,126 @@
+/* Main container styles */
 #bg-for-timer {
-position: absolute;
-width: 356px;
-height: 215px;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-background: #394BB0;
+    position: absolute;
+    width: 356px;
+    height: 215px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #394BB0;
 }
 
 #bg-for-text-timer {
-position: absolute;
-width: 82px;
-height: 38px;
-left: 10px;
-top: 20px;
-background: #D5E7FF;
+    position: absolute;
+    width: 82px;
+    height: 38px;
+    left: 10px;
+    top: 20px;
+    background: #D5E7FF;
 }
 
 #choose-ctg {
-position: absolute;
-width: 160px;
-height: 38px;
-left: 92px;
-top: 20px;
-background: #92939F;
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 92px;
+    top: 20px;
+    background: #92939F;
 }
 
 p1 {
-position: absolute;
-width: 117px;
-height: 44px;
-left: 12px;
-top: -3px;
-font-family: 'Kelly Slab';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 44px;
-color: #000000;
+    position: absolute;
+    width: 117px;
+    height: 44px;
+    left: 12px;
+    top: -3px;
+    font-family: 'Kelly Slab';
+    font-size: 18px;
+    color: #000000;
+    -webkit-user-select: none;
 }
 
 p2 {
-position: absolute;
-width: 156px;
-height: 64px;
-left: 0px;
-top: 0px;
-font-family: 'Kelly Slab';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 39px;
-text-align: center;
-color: #FFFFFF;
+    position: absolute;
+    width: 156px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Kelly Slab';
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-user-select: none;
 }
 
 p3 {
-position: absolute;
-width: 150px;
-height: 96px;
-left: 100px;
-top: 50px;
-font-family: 'Jomhuria';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 128px;
-color: #FFFFFF;
+    position: absolute;
+    width: 150px;
+    height: 96px;
+    left: 100px;
+    top: 50px;
+    font-family: 'Jomhuria';
+    font-size: 36px;
+    color: #FFFFFF;
+    -webkit-user-select: none;
 }
 
 #language {
-position: absolute;
-width: 1px;
-height: 1px;
-left: 360px;
-top: 205px;
-background: https://cdn-emmef.nitrocdn.com/IqjJNajKEsYHtBWHMGqqzRBIAhJYnual/assets/images/optimized/rev-deac2c9/starspangledflags.com/wp-content/uploads/ukraine-flag.jpg;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 360px;
+    top: 205px;
+    -webkit-user-select: none;
 }
 
 #menu {
-position: relative;
-width: 31px;
-height: 30px;
-left: 353px;
-top: 0px;
+    position: relative;
+    width: 31px;
+    height: 30px;
+    left: 353px;
+    top: 0px;
+    cursor: pointer;
+    -webkit-user-select: none;
 }
 
 #start-button {
-position: relative;
-width: 48px;
-height: 38px;
-left: 160px;
-top: 125px;
+    position: relative;
+    width: 48px;
+    height: 38px;
+    left: 160px;
+    top: 125px;
+    -webkit-user-select: none;
+}
+
+/* Popup Menu Styles */
+#popup-menu {
+    position: fixed;
+    top: 0;
+    right: -200px; /* Initially hidden off-screen */
+    width: 200px;
+    height: 100%;
+    background-color: #394BB0;
+    color: white;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.popup-content {
+    padding: 20px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    z-index: 999;
+}
+
+#overlay.active {
+    visibility: visible;
 }
