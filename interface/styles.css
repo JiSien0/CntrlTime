@@ -54,3 +54,42 @@ line-height: 39px;
 text-align: center;
 color: #FFFFFF;
 }
+
+p3 {
+position: absolute;
+width: 150px;
+height: 96px;
+left: 100px;
+top: 50px;
+font-family: 'Jomhuria';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 128px;
+color: #FFFFFF;
+}
+
+#language {
+position: absolute;
+width: 1px;
+height: 1px;
+left: 360px;
+top: 205px;
+background: https://cdn-emmef.nitrocdn.com/IqjJNajKEsYHtBWHMGqqzRBIAhJYnual/assets/images/optimized/rev-deac2c9/starspangledflags.com/wp-content/uploads/ukraine-flag.jpg;
+}
+
+#menu {
+position: relative;
+width: 31px;
+height: 30px;
+left: 353px;
+top: 0px;
+}
+
+#start-button {
+position: relative;
+width: 48px;
+height: 38px;
+left: 160px;
+top: 125px;
+}
