@@ -46,5 +46,4 @@ npm start
 Categories: Users can create and manage categories, assign unique names and colors to them.
 <li>Timers: Each category has its own stopwatch, which tracks the time spent on tasks.
 <li>Data Storage: All category and time data is stored in a SQLite database, allowing you to restore it after restarting the application.
-![image](https://github.com/user-attachments/assets/09c086a2-c7f0-4de8-b0b2-03b28ccc1ffd)
 
