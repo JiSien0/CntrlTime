@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Новый стиль для выделенной кнопки */
+.selected {
+    background-color: #ff6600;  /* Цвет фона для выделенной кнопки */
+    outline: 3px solid #fff;  /* Белая обводка для выделенной кнопки */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);  /* Легкая тень для выделения */
+}
+
+
