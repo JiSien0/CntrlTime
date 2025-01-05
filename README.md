@@ -41,7 +41,7 @@ Run the project from the frontend folder:
 ``` 
 npm start
 ```
-### Functionality Description
+## Functionality Description
 <li>
 Categories: Users can create and manage categories, assign unique names and colors to them.
 <li>Timers: Each category has its own stopwatch, which tracks the time spent on tasks.
